@@ -4,78 +4,78 @@ SC.initialize({
 
 $(document).ready(function() {
   SC.stream('/tracks/438430806',function(sound){
-  $('#start').click(function(e) {
+  $('#start1').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start1();
            });
-  $('#stop').click(function(e) {
+  $('#stop1').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop1();
             });
     });
-}); // laali laali
+ // laali laali
 
-$(document).ready(function() {
+
   SC.stream('/tracks/400360410',function(sound){
-  $('#start').click(function(e) {
+  $('#start2').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start2();
            });
-  $('#stop').click(function(e) {
+  $('#stop2').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop2();
             });
     });
-});  // yaayum
+ // yaayum
 
-$(document).ready(function() {
+
   SC.stream('/tracks/464043330',function(sound){
-  $('#start').click(function(e) {
+  $('#start3').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start3();
            });
-  $('#stop').click(function(e) {
+  $('#stop3').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop3();
             });
     });
-}); // pondattee
+ // pondattee
 
-$(document).ready(function() {
+
   SC.stream('/tracks/456435057',function(sound){
-  $('#start').click(function(e) {
+  $('#start4').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start4();
            });
-  $('#stop').click(function(e) {
+  $('#stop4').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop4();
             });
     });
-}); // yei penne en nenjil
+ // yei penne en nenjil
 
-$(document).ready(function() {
+
   SC.stream('/tracks/394655895',function(sound){
-  $('#start').click(function(e) {
+  $('#start5').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start5();
            });
-  $('#stop').click(function(e) {
+  $('#stop5').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop5();
             });
     });
-}); // seramal ponaal
+ // seramal ponaal
 
-$(document).ready(function() {
+
   SC.stream('/tracks/242542934',function(sound){
-  $('#start').click(function(e) {
+  $('#start6').click(function(e) {
              e.preventDefault();
-             sound.start();
+             sound.start6();
            });
-  $('#stop').click(function(e) {
+  $('#stop6').click(function(e) {
              e.preventDefault();
-             sound.stop();
+             sound.stop6();
             });
     });
 }); // thalli pogathe
