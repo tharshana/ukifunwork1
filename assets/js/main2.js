@@ -6,11 +6,11 @@ $(document).ready(function() {
   SC.stream('/tracks/438430806',function(sound){
   $('#start1').click(function(e) {
              e.preventDefault();
-             sound.start1();
+             sound.start();
            });
   $('#stop1').click(function(e) {
              e.preventDefault();
-             sound.stop1();
+             sound.stop();
             });
     });
  // laali laali
@@ -19,11 +19,11 @@ $(document).ready(function() {
   SC.stream('/tracks/400360410',function(sound){
   $('#start2').click(function(e) {
              e.preventDefault();
-             sound.start2();
+             sound.start();
            });
   $('#stop2').click(function(e) {
              e.preventDefault();
-             sound.stop2();
+             sound.stop();
             });
     });
  // yaayum
@@ -32,11 +32,11 @@ $(document).ready(function() {
   SC.stream('/tracks/464043330',function(sound){
   $('#start3').click(function(e) {
              e.preventDefault();
-             sound.start3();
+             sound.start();
            });
   $('#stop3').click(function(e) {
              e.preventDefault();
-             sound.stop3();
+             sound.stop();
             });
     });
  // pondattee
@@ -45,11 +45,11 @@ $(document).ready(function() {
   SC.stream('/tracks/456435057',function(sound){
   $('#start4').click(function(e) {
              e.preventDefault();
-             sound.start4();
+             sound.start();
            });
   $('#stop4').click(function(e) {
              e.preventDefault();
-             sound.stop4();
+             sound.stop();
             });
     });
  // yei penne en nenjil
@@ -58,11 +58,11 @@ $(document).ready(function() {
   SC.stream('/tracks/394655895',function(sound){
   $('#start5').click(function(e) {
              e.preventDefault();
-             sound.start5();
+             sound.start();
            });
   $('#stop5').click(function(e) {
              e.preventDefault();
-             sound.stop5();
+             sound.stop();
             });
     });
  // seramal ponaal
@@ -71,11 +71,11 @@ $(document).ready(function() {
   SC.stream('/tracks/242542934',function(sound){
   $('#start6').click(function(e) {
              e.preventDefault();
-             sound.start6();
+             sound.start();
            });
   $('#stop6').click(function(e) {
              e.preventDefault();
-             sound.stop6();
+             sound.stop();
             });
     });
 }); // thalli pogathe
