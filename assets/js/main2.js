@@ -28,8 +28,7 @@ $(document).ready(function() {
     });
  // yaayum
 
-
-  SC.stream('/tracks/464043330',function(sound){
+  SC.stream('/tracks/345946410',function(sound){
   $('#start3').click(function(e) {
              e.preventDefault();
              sound.start();
@@ -39,7 +38,7 @@ $(document).ready(function() {
              sound.stop();
             });
     });
- // pondattee
+ // munbe vaa
 
 
   SC.stream('/tracks/456435057',function(sound){
