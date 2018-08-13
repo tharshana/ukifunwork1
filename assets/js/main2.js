@@ -80,11 +80,11 @@ $(document).ready(function() {
  // thalli pogathe
 
  SC.stream('/tracks/347750201',function(sound){
- $('#start6').click(function(e) {
+ $('#start7').click(function(e) {
             e.preventDefault();
             sound.start();
           });
- $('#stop6').click(function(e) {
+ $('#stop7').click(function(e) {
             e.preventDefault();
             sound.stop();
            });
@@ -92,11 +92,11 @@ $(document).ready(function() {
 // oru thadavai
 
 SC.stream('/tracks/363589097',function(sound){
-$('#start6').click(function(e) {
+$('#start8').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-$('#stop6').click(function(e) {
+$('#stop8').click(function(e) {
            e.preventDefault();
            sound.stop();
           });
@@ -104,11 +104,11 @@ $('#stop6').click(function(e) {
 // oru kili
 
 SC.stream('/tracks/277065155',function(sound){
-$('#start6').click(function(e) {
+$('#start9').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-$('#stop6').click(function(e) {
+$('#stop9').click(function(e) {
            e.preventDefault();
            sound.stop();
           });
@@ -116,11 +116,11 @@ $('#stop6').click(function(e) {
 // unnale
 
 SC.stream('/tracks/5247581',function(sound){
-$('#start6').click(function(e) {
+$('#start10').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-$('#stop6').click(function(e) {
+$('#stop10').click(function(e) {
            e.preventDefault();
            sound.stop();
           });
@@ -128,11 +128,11 @@ $('#stop6').click(function(e) {
 // evano oruvan
 
 SC.stream('/tracks/368403644',function(sound){
-$('#start6').click(function(e) {
+$('#start11').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-$('#stop6').click(function(e) {
+$('#stop11').click(function(e) {
            e.preventDefault();
            sound.stop();
           });
@@ -140,11 +140,11 @@ $('#stop6').click(function(e) {
 // venilave venilave
 
 SC.stream('/tracks/179958670',function(sound){
-$('#start6').click(function(e) {
+$('#start12').click(function(e) {
            e.preventDefault();
            sound.start();
          });
-$('#stop6').click(function(e) {
+$('#stop12').click(function(e) {
            e.preventDefault();
            sound.stop();
           });
