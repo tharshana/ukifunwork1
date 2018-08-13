@@ -77,4 +77,76 @@ $(document).ready(function() {
              sound.stop();
             });
     });
-}); // thalli pogathe
+ // thalli pogathe
+
+ SC.stream('/tracks/347750201',function(sound){
+ $('#start6').click(function(e) {
+            e.preventDefault();
+            sound.start();
+          });
+ $('#stop6').click(function(e) {
+            e.preventDefault();
+            sound.stop();
+           });
+   });
+// oru thadavai
+
+SC.stream('/tracks/363589097',function(sound){
+$('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+$('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+          });
+  });
+// oru kili
+
+SC.stream('/tracks/277065155',function(sound){
+$('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+$('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+          });
+  });
+// unnale
+
+SC.stream('/tracks/5247581',function(sound){
+$('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+$('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+          });
+  });
+// evano oruvan
+
+SC.stream('/tracks/368403644',function(sound){
+$('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+$('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+          });
+  });
+// venilave venilave
+
+SC.stream('/tracks/179958670',function(sound){
+$('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+$('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+          });
+  });
+});// akkam pakkam
